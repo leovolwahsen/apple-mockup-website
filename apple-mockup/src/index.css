@@ -6,10 +6,10 @@ body {
   Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #000; */
-  /* color: #f5f5f7; */
-  color: black;
-  background-color: white;
+  background-color: #000; 
+  color: #f5f5f7; 
+  /* color: black;
+  background-color: white; */
   
 }
 
@@ -147,15 +147,20 @@ body::-webkit-scrollbar-thumb {
   right: 10px;
 }
 
-nav.nav-wrapper {
+#containerID {
+  background-color: #f2f2f2;
+  color: black;
+  text-decoration: none;
+
+}
+
+nav .nav-wrapper {
   margin: 0;
   width: 100%;
   min-width: 320px;
   height: 48px;
   max-height: 44px;
   font-size: 17px;
-  background-color: #f2f2f2;
-  color: black;
 }
 
 nav .nav-content {
@@ -164,7 +169,7 @@ nav .nav-content {
   width: 100%;
   max-width: 1024px;
   padding: 0 22px;
-  color: black;
+  /* color: black; */
 }
 
 nav .list-styled {
@@ -175,7 +180,7 @@ nav .list-styled {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  color: black;
+  /* color: black; */
 }
 
 nav .link-styled {
@@ -187,7 +192,9 @@ nav .link-styled {
   align-items: center;
   justify-content: center;
   height: 44px;
-  color: black;
+  text-decoration: none;
+  
+  /* color: black; */
 }
 
 .jumbotron-section.wrapper {
